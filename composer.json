@@ -7,7 +7,9 @@
         "quran",
         "moslem",
         "muslim",
-        "islam"
+        "islam",
+        "translation",
+        "bahasa indonesia"
     ],
     "homepage": "https://github.com/laraiba/php-quran-translation-bahasa",
     "authors": [
