@@ -13,7 +13,7 @@ class IndonesianMinistryTranslation extends ArrayAyatRepository implements Trans
     {
         $file = __DIR__ . '/../data/indonesian-ministry.txt';
 
-        $content = explode(PHP_EOL, file_get_contents($file));
+        $content = explode("\n", file_get_contents($file));
 
         $data = array();
         foreach ($content as $row) {
